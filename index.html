@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>Industry Night Site Practice</title>
 </head>
 <body>
-    
+    <main>
+        <header class="grid-con">
+            <h2 class="hidden">Header</h2>
+            <h2 class="hidden">logo</h2>
+            <div class="col-span-2 m-col-span-2 l-col-span-2">
+                <img src="images/logo.png" alt="Fanshawe's logo" class="logo">
+            </div>
+
+            <nav id="nav" class="col-start-3 m-col-start-9 l-col-start-9">
+                <button class="nine-circle-menu">
+                    <img src="/images/nine-circles.png" alt="Nine-circle menu icon">
+                </button>
+                <div class="nav-links">
+                    <a href="#">EVENT</a>
+                    <a href="#">PROGRAM</a>
+                    <a href="#">PORTFOLIOS</a>
+                    <a href="#">STUDENT SHOWCASES</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <div class="grid-con">
+                <h1 class="col-span-full">Welcome to industry night</h1>
+            </div>
+
+            <div class="grid-con hero-content">
+                <div class="video-container col-span-full m-col-span-6 l-col-span-7">
+                    <video controls muted autoplay loop class="hero-video">
+                        <source src="/video/0.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="text-container col-span-full m-col-span-6 l-col-span-5">
+                    <p>industry night & IDP info industry night & IDP infoindustry night & IDP infoindustry night & IDP infoindustry night & IDP infoindustry night & IDP infoindustry night & IDP info industry night & IDP info</p>
+                </div>
+            </div>
+        </section>
+
+       <section class="student-works-section">
+            <div class="grid-con">
+                <h2 class="col-span-full">Selected Student Works</h2>
+        
+                <div class="showcases-container col-span-full">
+                    <div class="showcase">
+                        <a href="#">
+                            <img src="/images/1.jpg" alt="Student project 1">
+                            <div class="showcase-content">
+                                <h3 class="hidden">SHOWCASE 1</h3>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="showcase center-showcase">
+                        <a href="#">
+                            <img src="/images/2.jpg" alt="Student project 2">
+                            <div class="showcase-content">
+                                <h3 class="hidden">SHOWCASE 2</h3>
+                            </div>
+                        </a>
+                    </div>
+        
+                    <div class="showcase">
+                        <a href="#">
+                            <img src="/images/3.jpg" alt="Student project 3">
+                            <div class="showcase-content">
+                                <h3 class="hidden">SHOWCASE 3</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="description-container col-span-full">
+                    <p>
+                        Description of the lvl 4 client project. This section provides 
+                        more details about the featured student works and their outcomes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="project-section">
+            <div class="grid-con">
+                <div class="project-image-container col-span-full m-col-span-full l-col-span-full">
+                    <div class="image-placeholder">(image of Ivl 4 project)</div>
+                </div>
+                <div class="project-description col-span-full">
+                    <p>Description of the Ivi 4 client project Description of the Ivi 4 client project Description of the lvl 4 client project Description of the Ivi 4 client project Description of the Ivi 4 client project</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/js/script.js"></script>
 </body>
 </html>
