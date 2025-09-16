@@ -5,14 +5,15 @@
 }
 
 body {
-    background: #cd0b0b;
+    background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     color: rgb(27, 27, 27);
     margin: 0;
+    
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #d12e2e;
     height: 150px;
     margin-bottom: 20px;
     justify-content: center;
@@ -42,7 +43,7 @@ header h2 {
 
 #nav a {
     text-decoration: none;
-    color: #cd0b0b;
+    color: #ffffff;
 }
 
 /* Nine-Circle Menu styles (Photo Version) */
@@ -73,16 +74,27 @@ header h2 {
 .hero-video {
     width: 100%;
     height: auto;
+    border-radius: 23px;
+    border: 5px solid #d12e2e;
+    box-shadow: ;
+    box-shadow: 4px 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.hero-section {
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 /* --- Hero Section --- */
 .hero-section h1 {
-    font-size: 40px;
+    font-size: 70px;
     text-align: center;
-    color: #ffffff;
+    color: #c92222;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    padding-bottom: 60px;
 }
 
 .hero-section .hero-content {
@@ -98,9 +110,9 @@ header h2 {
 }
 
 .text-container {
-    color: #ffffff;
+    color: #000000;
     padding-left: 20px;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -108,7 +120,7 @@ header h2 {
 
 /* --- Student Works Section --- */
 .student-works-section {
-    background-color: #cd0b0b;
+    background-color: #d12e2e;
     padding: 40px 0;
     margin-top: 40px;
 }
@@ -117,7 +129,7 @@ header h2 {
     color: white;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 32px;
+    font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -142,8 +154,9 @@ header h2 {
 .showcase img {
     width: 100%;
     height: auto;
-    border: 5px solid white;
+    border: 5px solid rgb(255, 198, 198);
     transition: transform 0.3s ease-in-out;
+    border-radius: 49px;
 }
 
 /* Side showcases scale slightly */
