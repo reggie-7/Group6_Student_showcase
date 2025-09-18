@@ -284,3 +284,8 @@ header h2 {
         flex: 0 0 calc(50% - 10px);
     }
 }
+
+footer {
+    min-height: 600px;
+    background-color: #d12e2e;
+}
