@@ -8,23 +8,23 @@ This repository contains the source code for the official website for the Intera
 
 Our primary objective is to create a dynamic and professional website that fulfills the following key requirements:
 
-   Showcase Student Work: Provide a dedicated section for student portfolios and a curated gallery of outstanding work selected by professors.
-   Promote the Program: Feature information about the Interactive Media Design program at Fanshawe College, including testimonials from past clients and a promotional video.
-   Event Information: Clearly display all necessary details about the Industry Night event, including its date, time, location, and purpose.
-   Technical Excellence: Adhere to best practices in web development, including mobile-first design, semantic HTML, and the use of native JavaScript without third-party libraries.
-   Testimonials: Display testimonials from professors and professionals form the industry or colleauges.
+   1. Showcase Student Work: Provide a dedicated section for student portfolios and a curated gallery of outstanding work selected by professors.
+   2. Promote the Program: Feature information about the Interactive Media Design program at Fanshawe College, including testimonials from past clients and a promotional video.
+   3. Event Information: Clearly display all necessary details about the Industry Night event, including its date, time, location, and purpose.
+   4. Technical Excellence: Adhere to best practices in web development, including mobile-first design, semantic HTML, and the use of native JavaScript without third-party libraries.
+   5. Testimonials: Display testimonials from professors and professionals form the industry or colleauges.
 
 
 
 ## Technologies Used
 
-   HTML5: For semantic markup and document structure.
-   CSS3: For styling, including responsive design and custom animations.
-   JavaScript : For dynamic content, a functional mobile menu, and data manipulation (using arrays and objects).
-   CSS Grid: For building the responsive page layouts.
-   Git & GitHub: For version control and collaborative development.
-   Aftereffcets: For Video Editing.
-   Figma: For making the wireframes.
+   1. HTML5: For semantic markup and document structure.
+   2. CSS3: For styling, including responsive design and custom animations.
+   3. JavaScript : For dynamic content, a functional mobile menu, and data manipulation (using arrays and objects).
+   4. CSS Grid: For building the responsive page layouts.
+   5. Git & GitHub: For version control and collaborative development.
+   6. Aftereffcets: For Video Editing.
+   7. Figma: For making the wireframes.
 
 
 ##  Features
@@ -35,9 +35,9 @@ The website is built with a mobile-first approach, ensuring a seamless experienc
 
 #### Dynamic Content
 
-  Student Portfolios: The list of students and their portfolio links is pulled dynamically from a JavaScript array or object, demonstrating the use of data structures.
-  Testimonials: Client testimonials are also loaded dynamically from a JavaScript array or object and displayed on the page.
-  Native JavaScript: The entire site is powered by vanilla JavaScript (ES6+), with no jQuery or other third-party libraries used, as per project requirements.
+ 1. Student Portfolios: The list of students and their portfolio links is pulled dynamically from a JavaScript array or object, demonstrating the use of data structures.
+ 2.  Testimonials: Client testimonials are also loaded dynamically from a JavaScript array or object and displayed on the page.
+ 3. Native JavaScript: The entire site is powered by vanilla JavaScript (ES6+), with no jQuery or other third-party libraries used, as per project requirements.
 
 #### Interactive Mobile Menu
 
