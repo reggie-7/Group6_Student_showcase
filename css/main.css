@@ -92,6 +92,12 @@ header h2 {
   
 
 /* Video styles */
+
+.hero-video-1 video {
+    max-width: 100%;
+}
+
+
 .hero-video {
     width: 100%;
     height: auto;
