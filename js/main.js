@@ -1,23 +1,34 @@
-// js/carousel.js
+const navToggle = document.querySelector('#navToggle');
+const navMenu = document.querySelector('#navMenu');
 
-document.addEventListener('DOMContentLoaded', () => {
-    const showcasesContainer = document.querySelector('.showcases-container');
-    const prevArrow = document.querySelector('.prev-arrow');
-    const nextArrow = document.querySelector('.next-arrow');
+// functions
 
-    const scrollAmount = 300; // Adjust this value to control how much the slider moves
+//nav
+function toggleNavMenu() {
+    navMenu.classList.toggle('active');
+    navToggle.classList.toggle('active');
+}
 
-    nextArrow.addEventListener('click', () => {
-        showcasesContainer.scrollBy({
-            left: scrollAmount,
-            behavior: 'smooth'
-        });
+function closeNavMenu() {
+    navMenu.classList.remove('active');
+    navToggle.classList.remove('active');
+}
+
+function closeNavMenuOnClickOutside(e) {
+    if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+        closeNavMenu();
+    }
+}
+
+// event listeners
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', toggleNavMenu);
+
+    const navLinks = navMenu.querySelectorAll('a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', closeNavMenu);
     });
 
-    prevArrow.addEventListener('click', () => {
-        showcasesContainer.scrollBy({
-            left: -scrollAmount,
-            behavior: 'smooth'
-        });
-    });
-});
+    document.addEventListener('click', closeNavMenuOnClickOutside);
+}
+
