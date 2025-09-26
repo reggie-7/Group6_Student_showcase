@@ -121,17 +121,17 @@ header h2 {
         z-index: 1000;
     }
 
-    .nav-menu.active {
+    .nav-menu.running {
         left: 0;
     }
 
-    .nav-toggle.active span:nth-child(1) {
+    .nav-toggle.running span:nth-child(1) {
         transform: rotate(45deg) translate(6px, 6px);
     }
-    .nav-toggle.active span:nth-child(2) {
+    .nav-toggle.running span:nth-child(2) {
         opacity: 0;
     }
-    .nav-toggle.active span:nth-child(3) {
+    .nav-toggle.running span:nth-child(3) {
         transform: rotate(-45deg) translate(6px, -6px);
     }
 
@@ -385,8 +385,7 @@ header h2 {
 }
 
 .learn-more-btn {
-    background-color: 
-#e74c3c;
+    background-color: #e74c3c;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -398,8 +397,7 @@ header h2 {
 }
 
 .learn-more-btn:hover {
-    background-color: 
-#c0392b;
+    background-color: #c0392b;
 }
 
 .btn-container {
