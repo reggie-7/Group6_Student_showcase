@@ -342,6 +342,94 @@ header h2 {
     }
 }
 
+* interactive media desiegn */
+
+.idp {
+    color: 
+#e74c3c;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.idp-hero {
+    background-color: 
+#d0d0d0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.idp-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.idp-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+}
+
+.learn-more-btn {
+    background-color: 
+#e74c3c;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: 
+#c0392b;
+}
+
+.btn-container {
+    margin-top: 40px;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 768px) {
+    .idp-hero {
+        height: 250px;
+    }
+
+    .idp-image {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .idp-hero {
+        height: 300px;
+    }
+
+    .idp-image {
+        height: 180px;
+    }
+}
+
+
+
 
 /* project section */
 .project-section .grid-con {
