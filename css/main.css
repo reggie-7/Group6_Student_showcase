@@ -213,6 +213,9 @@ header h2 {
     font-size: 30px;
 }
 
+#industry-idp p {
+    font-size: 13px;
+}
 .video-placeholder {
     background-color: lightgray;
     height: 300px;
@@ -344,9 +347,8 @@ header h2 {
 
 * interactive media desiegn */
 
+/* Change this color value */
 .idp {
-    color: 
-#e74c3c;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -354,19 +356,18 @@ header h2 {
     text-align: center;
 }
 
-.idp-hero {
-    background-color: 
-#d0d0d0;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
+#program-info .idp {
+    color: red; 
+}
+
+.idp-hero-img {
+    background-color: #d0d0d0;
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px;
     margin-bottom: 20px;
 }
+   
 
 .idp-text {
     font-size: 14px;
@@ -454,8 +455,16 @@ header h2 {
 }
 
 .project-description h2 {
+    color: #c92222;
     font-size: 40px;
     margin-top: 60px;
+}
+
+#project-goals ol {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 hr {
@@ -474,7 +483,8 @@ hr {
     margin-bottom: 110px;
 }
 
-#testim-title h2 {
+#testimonial-title h2 {
+    color: #c92222;
     font-size: 40px;
 }
 
@@ -497,9 +507,8 @@ hr {
 
 #portfolios {
     min-height: 500px;
-  background-color: white;
-  margin-bottom: 120px;
- 
+    background-color: white;
+    margin-bottom: 120px;
 }
 
 #portfolios div {
@@ -511,9 +520,17 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
-#portfolios button {
+#portfolios div .view-portfolio-btn { 
+    margin-top: auto;
+}
+
+.view-portfolio-btn {
+    display: inline-block;
+    text-decoration: none; 
+    text-align: center;
     background-color: #d12e2e;
     color: white;
     border: none;
@@ -521,12 +538,14 @@ hr {
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-    border-color: black;
+    transition: background-color 0.3s ease;
 }
 
-#portfolios h2 {
-    color: rgb(0, 0, 0);
+.view-portfolio-btn:hover {
+    background-color: #a31f1f;
 }
 
 #portfolios p {
@@ -534,13 +553,13 @@ hr {
 }
 
 #portfolio-title h2 {
+    color: #c92222;
     font-size: 40px;
 }
 
 #portfolio-title {
     margin-bottom: 70px;
 }
-
 
 /* #portfolio-row1 {
     justify-content: center;
